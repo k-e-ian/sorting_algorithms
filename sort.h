@@ -26,7 +26,8 @@ void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shaker);
 
 int get_max(int *array, int size);
 
-void merge_subarr(int *subarr, int *buff, size_t front, size_t mid, size_t back);
+void merge_subarr(int *subarr, int *buff, size_t front,
+						size_t mid, size_t back);
 
 void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
 
